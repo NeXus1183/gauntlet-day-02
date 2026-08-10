@@ -15,6 +15,7 @@ int fight(bool flee){
     delete e;
     return result;
 }
+
 int main(){
     std::cout << fight(false) << ' ' << fight(true) << '\n';
 }
